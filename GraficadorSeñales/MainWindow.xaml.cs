@@ -39,7 +39,9 @@ namespace GraficadorSeñales
 
             /*SeñalParabolica señal = new SeñalParabolica();*/
 
-            FuncionSigno señal = new FuncionSigno();
+            //FuncionSigno señal = new FuncionSigno();
+
+            ImpulsoUnitario señal = new ImpulsoUnitario();
 
             double periodoMuestreo = 1.0 / frecuenciaMuestreo;
 
